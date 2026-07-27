@@ -1,0 +1,28 @@
+{
+  "project": "06-movie-recommendation-ai-advanced",
+  "service_name": "Movie Recommendation AI Advanced",
+  "dataset": "MovieLens 100K",
+  "model_name": "Hybrid Recommendation (Content-Based + Item/User CF + SVD + Popularity)",
+  "model_version": "1.0.0",
+  "algorithms": [
+    "popularity_based",
+    "content_based",
+    "item_based_cf",
+    "user_based_cf",
+    "svd_matrix_factorization",
+    "hybrid"
+  ],
+  "num_users": 943,
+  "num_movies": 1682,
+  "num_ratings": 100000,
+  "num_movies_in_item_cf": 1010,
+  "num_users_in_user_cf": 943,
+  "svd_n_components": 20,
+  "svd_explained_variance_ratio": 0.2218,
+  "activity_level_distribution": {
+    "Low Activity": 477,
+    "Medium Activity": 277,
+    "High Activity": 141,
+    "Power User": 48
+  }
+}

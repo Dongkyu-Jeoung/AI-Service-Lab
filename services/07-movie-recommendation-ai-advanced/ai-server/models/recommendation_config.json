@@ -1,0 +1,41 @@
+{
+  "hybrid_weights_by_activity": {
+    "Low Activity": {
+      "content": 0.25,
+      "collaborative": 0.1,
+      "svd": 0.35,
+      "popularity": 0.3
+    },
+    "Medium Activity": {
+      "content": 0.2,
+      "collaborative": 0.15,
+      "svd": 0.45,
+      "popularity": 0.2
+    },
+    "High Activity": {
+      "content": 0.1,
+      "collaborative": 0.15,
+      "svd": 0.6,
+      "popularity": 0.15
+    },
+    "Power User": {
+      "content": 0.1,
+      "collaborative": 0.15,
+      "svd": 0.65,
+      "popularity": 0.1
+    }
+  },
+  "item_cf_weight_in_collaborative": 0.8,
+  "user_cf_weight_in_collaborative": 0.2,
+  "min_rating_count_for_movie_cf": 16,
+  "min_rating_count_for_user_cf": 5,
+  "high_rating_threshold": 4,
+  "top_favorite_genre_count": 3,
+  "top_rated_movie_count": 5,
+  "user_cf_neighbor_k": 30,
+  "default_top_n": 10,
+  "top_n_min": 1,
+  "top_n_max": 30,
+  "popularity_min_votes_m": 43.0,
+  "popularity_global_mean_C": 3.076
+}
