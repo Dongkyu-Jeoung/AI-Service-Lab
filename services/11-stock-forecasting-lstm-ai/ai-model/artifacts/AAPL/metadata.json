@@ -1,0 +1,66 @@
+{
+  "ticker": "AAPL",
+  "lookback": 60,
+  "feature_columns": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume",
+    "MA5",
+    "MA20",
+    "MA60",
+    "Daily_Return",
+    "Price_Change",
+    "Price_Range",
+    "High_Low",
+    "Open_Close",
+    "Volume_Change",
+    "Lag1",
+    "Lag3",
+    "Lag5",
+    "Rolling_Mean_5",
+    "Rolling_Std_5"
+  ],
+  "target_column": "Close",
+  "target_column_index": 3,
+  "train_rows": 836,
+  "val_rows": 179,
+  "test_rows": 180,
+  "epochs_ran": 34,
+  "test_metrics": {
+    "MAE": 8.3692,
+    "RMSE": 10.8761,
+    "MAPE": 2.8094,
+    "R2": 0.8063
+  },
+  "baseline_comparison": [
+    {
+      "Model": "Naive Forecast",
+      "MAE": 3.6682,
+      "RMSE": 4.9189,
+      "MAPE": 1.2912,
+      "R2": 0.9619
+    },
+    {
+      "Model": "Moving Average(5)",
+      "MAE": 5.6103,
+      "RMSE": 7.2703,
+      "MAPE": 1.9537,
+      "R2": 0.9167
+    },
+    {
+      "Model": "LSTM",
+      "MAE": 8.5449,
+      "RMSE": 11.0495,
+      "MAPE": 2.8633,
+      "R2": 0.8075
+    }
+  ],
+  "data_date_range": {
+    "start": "2021-07-29",
+    "end": "2026-07-28"
+  },
+  "trained_at": "2026-07-30T10:24:02",
+  "training_duration_sec": 26.4
+}

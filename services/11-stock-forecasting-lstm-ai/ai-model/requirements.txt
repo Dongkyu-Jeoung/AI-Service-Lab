@@ -1,0 +1,12 @@
+# AI Service Blueprint - Project10 (LSTM 주가 예측)
+# ai-model: 학습 파이프라인 전용 의존성
+
+pandas
+numpy
+scikit-learn
+tensorflow
+yfinance
+matplotlib
+koreanize-matplotlib   # 그래프의 한글이 네모(□)로 깨지지 않도록 한글 폰트를 자동 설정
+tabulate          # DataFrame.to_markdown()에 필요
+curl_cffi         # yfinance가 Yahoo Finance에 안정적으로 접속하기 위해 권장하는 패키지

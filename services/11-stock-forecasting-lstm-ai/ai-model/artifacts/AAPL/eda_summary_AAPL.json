@@ -1,0 +1,19 @@
+{
+  "ticker": "AAPL",
+  "shape": {
+    "rows": 1254,
+    "columns": 5
+  },
+  "date_range": {
+    "start": "2021-07-29",
+    "end": "2026-07-28"
+  },
+  "missing_values": {
+    "Open": 0,
+    "High": 0,
+    "Low": 0,
+    "Close": 0,
+    "Volume": 0
+  },
+  "duplicate_rows": 0
+}

@@ -1,0 +1,20 @@
+## tesorflow v2.9 & Python 3.11
+
+winget install Python.Python.3.11
+py -3.11 -m venv .venv
+.venv\Scripts\activate
+python -m pip install --upgrade pip setuptools wheel
+python -m pip cache purge
+
+requirements.txt 파일에 패키지 추가 확인
+tensorflow
+pandas
+numpy
+matplotlib
+scikit-learn
+yfinance
+joblib
+koreanize-matplotlib
+tabulate
+
+pip install -r requirements.txt

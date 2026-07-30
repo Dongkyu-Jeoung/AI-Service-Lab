@@ -1,0 +1,13 @@
+fastapi==0.139.0
+uvicorn==0.51.0
+pydantic
+
+# 모델 서빙 (ai-model이 학습한 model.keras / scaler.pkl을 로드하기 위해 필요)
+tensorflow
+scikit-learn
+pandas
+numpy
+
+# 예측 시점 최신 데이터 조회
+yfinance
+curl_cffi
